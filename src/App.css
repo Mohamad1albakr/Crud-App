@@ -1,0 +1,72 @@
+*{
+  box-sizing: border-box;
+
+}
+body {
+  background: burlywood;
+ margin: 0;
+
+}
+h2{
+  background: cornflowerblue;
+  padding: 20px;
+  color: #e7e1e9;
+ 
+}
+
+.App{
+ padding: 30px;
+ background: #282c34;
+ width: 80%;
+ margin: 50px auto;
+ box-shadow: 1px 20px 50px #3b4946;
+
+}
+
+
+input{
+  width: 80%;
+  margin-right: 01%;
+  border: 0;
+  padding: 8px 10px;
+  background: rgb(133, 146, 158);
+  color: rgb(228, 226, 206);
+
+}
+
+button {
+  padding: 6px 0px;
+  outline: 0;
+  margin: 0;
+  width: 19%;
+  color: #020113;
+  background: rgb(110, 170, 150);
+  font-weight: bold;
+  cursor: pointer;
+
+}
+ul{
+  list-style: none;
+  pad: 0;
+}
+li{
+  margin: 15px 0
+}
+li span{
+  display: inline-block;
+  width: 60%;
+  color: red;
+}
+li>button:last-of-type{
+  background: red;
+  color: #fff;
+
+  
+}
+li>button:first-of-type{
+  background: rgb(150, 134, 134);
+  color: #fff;
+
+  margin-right: 1%;
+  
+}
