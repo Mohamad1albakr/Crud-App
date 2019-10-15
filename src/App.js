@@ -66,7 +66,7 @@ this.setState({
 }
 
   render(){
-    //show the Courses in from the State to the Component and come back to the the APP
+    //show the Courses in From. the State to the Component and come back to  the APP
     let courses=this.state.courses;
     let length=courses.length;
    //check if there is no lenght so  no Items to show 
